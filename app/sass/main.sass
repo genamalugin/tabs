@@ -25,19 +25,51 @@ body
 		&:required:valid
 			border-color: green
 
-.img-responsive
-	display: block
-	max-width: 100%
-	height: auto
-	&.img-width
-		width: 100%
-
-.text-center
-	text-align: center
-
 b, strong
 	font-weight: bold
 
+.block
+	display: flex
+	max-width: 300px
+	justify-content: space-between
+	align-items: center
+	height: 70px
+	padding: 0 20px
+	box-shadow: #1b1e21 1px 1px 5px
+	background: #ffffff
+	margin: 20px 0
 
+.block_1
+	display: flex
+	align-items: center
+
+.block_1 img
+	width: 50px
+	height: 50px
+
+.block_1-text
+	font-size: 12px
+	line-height: 1.1
+	margin: 0 0 0 20px
+.block_1-text p
+	margin: 0
+
+.block_1-text p:last-child
+	display: flex
+	align-items: center
+
+
+.block_2 p
+	display: flex
+	height: 12px
+	margin-bottom: 0
+
+.fa-circle
+	font-size: 5px
+	margin: 3px
+	
+.tab-content
+	background: #ccc
+	padding: 20px 20px 40px 20px
 
 @import "media" // Always at the end
